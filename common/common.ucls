@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="es.uned.common.Trino" project="common" 
+    file="/common/src/es/uned/common/Trino.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="223" width="176" x="119" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="es.uned.common.ServicioDatosInterface" project="common" 
+    file="/common/src/es/uned/common/ServicioDatosInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="259" width="207" x="335" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="es.uned.common.CallbackUsuarioInterface" project="common" 
+    file="/common/src/es/uned/common/CallbackUsuarioInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="186" y="130"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="es.uned.common.ServicioAutenticacionInterface" project="common" 
+    file="/common/src/es/uned/common/ServicioAutenticacionInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="463" y="126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="es.uned.common.ServicioGestorInterface" project="common" 
+    file="/common/src/es/uned/common/ServicioGestorInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="666" y="298"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="es.uned.common.Utils" project="common" 
+    file="/common/src/es/uned/common/Utils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="718" y="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
